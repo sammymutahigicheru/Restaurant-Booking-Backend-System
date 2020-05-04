@@ -1,0 +1,19 @@
+{
+  "name": "restaurantbackendsystem",
+  "version": "1.0.0",
+  "description": "A public restaurant booking server, developed the back-end API with NodeJs , ExpressJs and ReactJs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sammymutahigicheru/Restaurant-Booking-Backend-System.git"
+  },
+  "author": "Sammy Mutahi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sammymutahigicheru/Restaurant-Booking-Backend-System/issues"
+  },
+  "homepage": "https://github.com/sammymutahigicheru/Restaurant-Booking-Backend-System#readme"
+}
