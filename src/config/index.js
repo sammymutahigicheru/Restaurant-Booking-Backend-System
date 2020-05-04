@@ -1,4 +1,7 @@
 import joi from '@hapi/joi';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const envVarsSchema = joi
   .object({
@@ -15,11 +18,12 @@ export const getConfig = () => {
   const { error, value: envVars } = envVarsSchema.validate(process.env);
 
   if (error) {
-    throw new Error(`Config validation error: ${error.message}`);
+    //throw new Error(`Config validation error: ${error.message}`);
+    console.log(`Config validation error: ${error.message}`)
   }
 
   const config = {
-    env: envVars.NODE_ENV || 'development',
+    env: process.env.NODE_ENV || 'development',
     port: envVars.PORT,
   
   };
