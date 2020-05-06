@@ -1,4 +1,6 @@
 node_modules
 *~
 .DS_Storesendgrid.env
+
+# dotenv environment variables file
 .env-cmdrc.json
