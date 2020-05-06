@@ -2,11 +2,11 @@
   "name": "restaurantbackendsystem",
   "version": "1.0.0",
   "description": "A public restaurant booking server, developed the back-end API with NodeJs , ExpressJs and ReactJs",
-  "main": "src/server.js",
+  "main": "app/server.js",
   "scripts": {
-    "start": "babel-node src/server.js",
-    "start:dev": "env-cmd -e development nodemon --exec  babel-node src/server.js",
-    "create-dev-tables": "babel-node ./app/db/dev/dbConnection createAllTables",
+    "start": "babel-node app/server.js",
+    "start:dev": "env-cmd -e development nodemon --exec  babel-node app/server.js",
+    "create-dev-tables": "env-cmd -e development babel-node ./app/db/dev/dbConnection createAllTables",
     "setup": "npm-run-all -p start create-dev-tables",
     "test": "test"
   },
