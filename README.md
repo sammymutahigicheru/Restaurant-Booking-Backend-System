@@ -1,12 +1,10 @@
 <h1 align="center">Restaurant Booking Backend System</h1>
-
 <p align="center">
     <img src="https://img.shields.io/github/repo-size/sammymutahigicheru/Restaurant-Booking-Backend-System" />
     <img src="https://img.shields.io/github/languages/top/sammymutahigicheru/Restaurant-Booking-Backend-System"  />
     <img src="https://img.shields.io/github/issues/sammymutahigicheru/Restaurant-Booking-Backend-System" />
     <img src="https://img.shields.io/github/last-commit/sammymutahigicheru/Restaurant-Booking-Backend-System" >
 </p>
-  
 <p align="center">
     <img src="https://img.shields.io/badge/Javascript-yellow" />
     <img src="https://img.shields.io/badge/jQuery-blue"  />
