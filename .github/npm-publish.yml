@@ -4,14 +4,12 @@
 name: Node.js Package
 
 on:
-  push:
-    branches: master
-  pull_request:
-    branches: master
+  release:
+    types: [created]
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
@@ -22,7 +20,7 @@ jobs:
 
   publish-npm:
     needs: build
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
@@ -36,7 +34,7 @@ jobs:
 
   publish-gpr:
     needs: build
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
