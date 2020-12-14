@@ -1,4 +1,5 @@
 <h1 align="center">Restaurant Booking Backend System</h1>
+![Build Application](https://github.com/sammymutahigicheru/Restaurant-Booking-Backend-System/workflows/Build%20Application/badge.svg)
    
   
 <p align="center">
