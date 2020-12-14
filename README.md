@@ -1,12 +1,11 @@
 <h1 align="center">Restaurant Booking Backend System</h1>
-![Build Application](https://github.com/sammymutahigicheru/Restaurant-Booking-Backend-System/workflows/Build%20Application/badge.svg)
-   
-  
+
 <p align="center">
     <img src="https://img.shields.io/github/repo-size/sammymutahigicheru/Restaurant-Booking-Backend-System" />
     <img src="https://img.shields.io/github/languages/top/sammymutahigicheru/Restaurant-Booking-Backend-System"  />
     <img src="https://img.shields.io/github/issues/sammymutahigicheru/Restaurant-Booking-Backend-System" />
     <img src="https://img.shields.io/github/last-commit/sammymutahigicheru/Restaurant-Booking-Backend-System" >
+    ![Build Application](https://github.com/sammymutahigicheru/Restaurant-Booking-Backend-System/workflows/Build%20Application/badge.svg)
 </p>
   
 <p align="center">
