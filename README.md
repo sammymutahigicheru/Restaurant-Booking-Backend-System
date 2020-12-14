@@ -69,9 +69,6 @@ A public restaurant booking server, developed the back-end API with NodeJs , Exp
      { status: 'error', error: '​relevant-error-message' }
      ```
 
-## Contributing
-    I would love to hear from anyone that will like to contribute
-
 ## Prerequisites
 - NodeJs and Npm (https://nodejs.org/en/download/)
 
@@ -84,9 +81,12 @@ A public restaurant booking server, developed the back-end API with NodeJs , Exp
 
 - DBeaver: DBeaver is free and open source universal database tool for developers and database administrators.
   (https://dbeaver.io/download/), this is optional though, you can use any other GUI for postgreSQL.
-
-## Settings
-  If you want set up locally you can follow these steps, you can also use `postman`(https://www.getpostman.com/downloads/) to test. Clone the repository, open terminal in root and do the following on terminal
+  
+## Contributing
+  I would love to hear from anyone that will like to contribute.
+  Make sure you have latest NodeJs installed locally.
+  If you want set up locally you can follow these steps, you can also use `postman`(https://www.getpostman.com/downloads/) to test. 
+  Fork the repository, open terminal in root and do the following on terminal
 
    ```shell
    $ npm install
